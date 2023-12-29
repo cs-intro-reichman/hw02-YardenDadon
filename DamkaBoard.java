@@ -6,8 +6,12 @@ public class DamkaBoard {
 	 	int evenChecker = 1;
  		while (horizontalCounter < input){
 			while (verticalCounter <= input){
-				System.out.print("* ");
+				System.out.print("*");
 				verticalCounter++;
+				while (verticalCounter <= input){
+					System.out.print(" ");
+					break;
+				}
 			}
 			horizontalCounter++;
 			if (evenChecker % 2 == 0){
