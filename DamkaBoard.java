@@ -8,7 +8,7 @@ public class DamkaBoard {
 			while (verticalCounter <= input){
 				System.out.print("*");
 				verticalCounter++;
-				while (verticalCounter <= input){
+				while (verticalCounter <= input + 1){
 					System.out.print(" ");
 					break;
 				}
