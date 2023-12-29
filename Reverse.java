@@ -12,7 +12,7 @@ public class Reverse {
 				letter--;
 			}else {letter--;};
 			if (letter < 0) {
-				System.out.println(" "); 
+				System.out.println(""); 
 				break;}
 		}
 		letter = word.length() - 1;
