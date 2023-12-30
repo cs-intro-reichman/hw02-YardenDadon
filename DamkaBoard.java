@@ -18,7 +18,7 @@ public class DamkaBoard {
 			System.out.println("");
 			evenChecker++;
 			}else {
-				System.out.println("");
+				System.out.println(" ");
 				System.out.print(" ");
 			evenChecker++;}
 			verticalCounter = 1;
